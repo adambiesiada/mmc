@@ -122,5 +122,4 @@ var2=seq(0,0,len=length(tst3))
 
 for (i in 1:length(tst3)) var2[i]=var(int2.2[,i])
 
-par(mfrow=c(1,1))
 plot(tst3,var2)

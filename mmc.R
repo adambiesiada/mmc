@@ -21,7 +21,7 @@ f1_2 = function(n){
   for (i in 1:n){
     x=rcauchy(1)
     if (x>=-1 & x<=6) y[i]=pi*sin(x)
-    }
+  }
   mean(y)
 }
 
@@ -33,7 +33,7 @@ f2 = function(n){
   for (i in 1:n){
     x=rnorm(1,2,1)
     if (x>=2) y[i]=sqrt(2*pi)/(exp(1)*x^2)
-    }  
+  }  
   mean(y)
 }
 
